@@ -17,6 +17,7 @@ function App() {
 			});
 		} else {
 			terminal.disconnect();
+			setDirection("");
 		}
 		setConnected(!connected);
 	};
