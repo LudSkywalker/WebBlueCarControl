@@ -35,10 +35,10 @@ function App() {
 				</button>
 			</div>
 			<div className="card">
-				<button onClick={() => changeDirection("!Up")}>Up</button>
-				<button onClick={() => changeDirection("!Down")}>Down</button>
-				<button onClick={() => changeDirection("!Left")}>Left</button>
-				<button onClick={() => changeDirection("!Right")}>Right</button>
+				<button onClick={() => changeDirection("!UP")}>Up</button>
+				<button onClick={() => changeDirection("!DOWN")}>Down</button>
+				<button onClick={() => changeDirection("!LEFT")}>Left</button>
+				<button onClick={() => changeDirection("!RIGHT")}>Right</button>
 				<p>direction : {direction}</p>
 			</div>
 		</>
